@@ -1,3 +1,7 @@
-$("img").attr("src");
+$("h1").click(function(){
+    $("h1").css("color", "purple");
+})
 
-$("a").attr("href", "http://www.yahoo.com");
+$("button").click(function(){ // no need for a for-loop using jQuery
+    $("h1").css("color", "purple");
+})
